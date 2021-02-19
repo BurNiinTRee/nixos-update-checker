@@ -1,5 +1,5 @@
 [package]
-name = "hello"
+name = "nixos-update-checker"
 version = "0.1.0"
 authors = ["Lars Mühmel <lars@muehml.eu>"]
 edition = "2018"
