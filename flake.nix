@@ -36,7 +36,7 @@
           cargo build --offline ${if isRelease then "--release" else ""}
         '';
         installPhase = ''
-          install -Dt $out/bin ./target/${if isRelease then "release" else "debug"}/hello
+          install -Dt $out/bin ./target/${if isRelease then "release" else "debug"}/nixos-update-checker
         '';
         shellHook = ''
           unset CARGO_HOME
